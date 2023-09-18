@@ -1,0 +1,33 @@
+body{
+    background-color: #26577C;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,460px);
+    grid-template-rows: repeat(2,330px);
+    background-color: #26577C;
+    width: max-content;
+    grid-gap: 30px;
+}
+.grid>*{
+    background-color: #F0EDD4;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #26577C;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+button{
+    border: none;
+}
+button:hover{
+    background-color: #C08261;
+}
